@@ -1,0 +1,50 @@
+# Ignore compiled or generated files
+*.class
+*.o
+*.exe
+*.dll
+*.jar
+*.war
+*.so
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+bin/
+target/
+
+# Ignore package manager directories
+node_modules/
+bower_components/
+vendor/
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore operating system and text editor temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore sensitive or private information
+config.ini
+secrets.txt
+credentials.json
+
+# Ignore deployment and environment-specific files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Ignore any other files or directories specific to your project
