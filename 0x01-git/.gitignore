@@ -39,6 +39,9 @@ config.ini
 secrets.txt
 credentials.json
 
+# Ignore backup file
+*~ 
+
 # Ignore deployment and environment-specific files
 .env
 .env.local
